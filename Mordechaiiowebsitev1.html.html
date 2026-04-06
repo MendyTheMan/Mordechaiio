@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mordechai.io</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --sky: #38bdf8;
+      --burgundy: #800020;
+      --dark: #0f172a;
+      --card: #1e293b;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--dark);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--sky), var(--burgundy));
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 30px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      border-left: 5px solid var(--sky);
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-left-color: var(--burgundy);
+    }
+
+    h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: var(--sky);
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #020617;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 28px;
+      background: var(--burgundy);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background: var(--sky);
+      color: black;
+    }
+
+    @media(max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Mordechai.io</h1>
+  <p>Celebrating Mordechai HaTzadik — Leadership. Faith. Courage.</p>
+  <a href="#legacy" class="btn">Explore the Legacy</a>
+</header>
+
+<section id="legacy">
+  <h2>Strategic Vision</h2>
+  <div class="card">
+    Mordechai demonstrated unwavering clarity in moments of national crisis. 
+    His leadership combined spiritual strength with political intelligence.
+  </div>
+
+  <h2>Unshakable Emunah</h2>
+  <div class="card">
+    Refusing to bow to Haman, Mordechai embodied absolute commitment to truth 
+    and Divine service — regardless of pressure.
+  </div>
+
+  <h2>Protector of the Jewish People</h2>
+  <div class="card">
+    Through courage and wisdom, Mordechai played a pivotal role in the 
+    salvation story of Purim, guiding Esther and strengthening the nation.
+  </div>
+
+  <h2>Legacy That Endures</h2>
+  <div class="card">
+    His actions echo through generations as a blueprint for moral strength, 
+    resilience, and dignified resistance.
+  </div>
+</section>
+
+<footer>
+  © 2026 Mordechai.io | Built with conviction and clarity
+</footer>
+
+</body>
+</html>
